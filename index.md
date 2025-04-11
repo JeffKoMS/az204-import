@@ -24,8 +24,9 @@ These exercises are ...
 {% assign grouped_exercises = exercises | group_by: "lab.topic" %}
 
 {% for group in grouped_exercises %}
-{{ lab.topic }}
+## {{ group.name }}
 <hr/>
+
 {% for activity in group.items %}
 ### [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }})
 
