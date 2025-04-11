@@ -1,10 +1,10 @@
 ---
-title: Online Hosted Instructions
+title: Microsoft Azure developer exercises
 permalink: index.html
 layout: home
 ---
 
-# Exercises
+# Develop solutions for Microsoft Azure
 
 The following exercises are designed to provide you with a hands-on learning experience in which you’ll explore common tasks that developers do when developing and deploying solutions to Microsoft Azure.
 
@@ -26,8 +26,7 @@ The following exercises are designed to provide you with a hands-on learning exp
 
 <hr/>
 
-| &nbsp; |
-| --- | {% for activity in group.items %}
+{% for activity in group.items %}
 | [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} |
 
 {% endfor %}
