@@ -7,9 +7,11 @@ lab:
 
 # Deploy a containerized app to Azure App Service
 
+In this exercise you deploy a simple containerized app to Azure App Service. 
+
 Tasks performed in this exercise:
 
-* Create an Azure App Service resource for a containerize app
+* Create an Azure App Service resource and deploy a containerized app
 * View the results
 * Clean up resources
 
