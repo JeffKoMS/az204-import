@@ -1,6 +1,6 @@
 ---
-topic: Azure Functions
 lab:
+    topic: Azure Functions
     title: 'Create an Azure Function with Visual Studio Code'
     description: 'Learn how to create an Azure Function with an HTTP trigger. After creating and testing the code locally in Visual Studio Code, you deploy the function to Azure.'
 ---

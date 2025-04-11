@@ -1,6 +1,6 @@
 ---
-topic: Azure Cosmos DB
 lab:
+    topic: Azure Cosmos DB
     title: 'Create Azure Cosmos DB resources with for NoSQL using .NET'
     description: 'Learn how to create database and container resources in Azure Cosmos DB with the Microsoft .NET SDK v3.'
 ---
