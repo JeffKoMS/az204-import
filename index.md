@@ -8,7 +8,7 @@ layout: home
 
 The following exercises are designed to provide you with a hands-on learning experience in which you’ll explore common tasks that developers do when developing and deploying solutions to Microsoft Azure.
 
-## Table of Contents
+## Topic areas
 {% assign exercises = site.pages | where_exp:"page", "page.url contains '/Instructions/Exercises'" %}
 {% assign grouped_exercises = exercises | group_by: "lab.topic" %}
 
