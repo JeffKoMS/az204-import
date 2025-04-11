@@ -18,8 +18,6 @@ The following exercises are designed to provide you with a hands-on learning exp
 {% endfor %}
 </ul>
 
----
-
 {% for group in grouped_exercises %}
 
 ## <a id="{{ group.name | slugify }}"></a>{{ group.name }} 
@@ -27,6 +25,6 @@ The following exercises are designed to provide you with a hands-on learning exp
 | [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} |
 
 {% endfor %}
-<span style="font-size: smaller;"><a href="#table-of-contents">Back to TOC</a></span>
+    <span style="font-size: smaller;"><a href="#table-of-contents">Back to TOC</a></span>
 {% endfor %}
 
