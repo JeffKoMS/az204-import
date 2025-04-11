@@ -17,14 +17,15 @@ Hyperlinks to each of the labs are listed below.
 {% endif %}{% endfor %}
 
 ## Exercises
+<hr/>
+These exercises are ...
 
 {% assign exercises = site.pages | where_exp:"page", "page.url contains '/Instructions/Exercises'" %}
 {% assign grouped_exercises = exercises | group_by: "lab.topic" %}
 
 {% for group in grouped_exercises %}
-<hr>
-## {{ group.name }}
-
+{{ group.name }}
+<hr/>
 {% for activity in group.items %}
 ### [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }})
 
