@@ -1,4 +1,5 @@
 ---
+topic: Azure App Service
 lab:
     title: 'Deploy a containerized app to Azure App Service'
     description: 'Learn how to deploy a containerized app to Azure App Service.'

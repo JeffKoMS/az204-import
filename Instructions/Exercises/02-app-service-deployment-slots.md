@@ -1,4 +1,5 @@
 ---
+topic: Azure App Service
 lab:
     title: 'Swap deployment slots in Azure App Service'
     description: 'Learn how to swap deployment slots in Azure App Service. In this exercise you: deploy a simple app to App Service; make a small change to the app and deploy that to a staging slot; and finally swap the slots so the updated app is in production.'
