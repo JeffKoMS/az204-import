@@ -22,7 +22,7 @@ The following exercises are designed to provide you with a hands-on learning exp
 
 {% for activity in group.items %}
 
-| [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} |
+| [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/><br/> {{ activity.lab.description }} |
 
 {% endfor %}
 {% endfor %}
