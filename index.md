@@ -25,6 +25,6 @@ The following exercises are designed to provide you with a hands-on learning exp
 | [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} |
 
 {% endfor %}
-| <span style="font-size: smaller;"><a href="#table-of-contents">Table of contents</a></span> |
+| <a href="#table-of-contents">Return to table of contents</a> |
 {% endfor %}
 
