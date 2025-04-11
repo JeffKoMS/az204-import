@@ -25,8 +25,8 @@ The following exercises are designed to provide you with a hands-on learning exp
 ### <a id="{{ group.name | slugify }}"></a>{{ group.name }} 
 {% for activity in group.items %}
 | [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} |
-<a href="#table-of-contents">Back to TOC</a>
 
 {% endfor %}
+<a href="#table-of-contents">Back to TOC</a>
 {% endfor %}
 
